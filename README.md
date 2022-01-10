@@ -1,6 +1,6 @@
 # Stocks App
 
-Stocks web app made as a project for The Knowledge House Progressive Web Development track.
+A mobile-first stocks web app made as a project for The Knowledge House Progressive Web Development track.
 
 ## Tech
 - React.js
@@ -8,11 +8,5 @@ Stocks web app made as a project for The Knowledge House Progressive Web Develop
 - [IEX Cloud](https://iexcloud.io/)
 
 ## Screenshots
-Mobile
-<img src="./assets/mobile.png" alt="mobile screenshot" width="100"/>
-
-Tablets (or mid-size screens)
-<img src="./assets/tablet.png" alt="tablet screenshot" width="100"/>c
-
-Laptop (or bigger screens)
-<img src="./assets/tablet.png" alt="tablet screenshot" width="100"/>
+<p>Mobile</p>
+<img src="./assets/mobile.png" alt="mobile screenshot" width="300"/>
