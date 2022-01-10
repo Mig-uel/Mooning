@@ -8,10 +8,6 @@ function App() {
       <Stocks />
       <Stocks />
       <Stocks />
-      <Stocks />
-      <Stocks />
-      <Stocks />
-      <Stocks />
       <Search />
     </Container>
   );
