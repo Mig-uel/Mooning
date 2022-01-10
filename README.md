@@ -2,12 +2,17 @@
 
 Stocks web app made as a project for The Knowledge House Progressive Web Development track.
 
-### Tech
+## Tech
 - React.js
 - Axios
 - [IEX Cloud](https://iexcloud.io/)
 
 ## Screenshots
-![mobile screenshot](./assets/mobile.png)
-![tablet screenshot](./assets/tablet.png)
-![laptop screenshot](./assets/laptop.png)
+Mobile
+<img src="./assets/mobile.png" alt="mobile screenshot" width="100"/>
+
+Tablets (or mid-size screens)
+<img src="./assets/tablet.png" alt="tablet screenshot" width="100"/>c
+
+Laptop (or bigger screens)
+<img src="./assets/tablet.png" alt="tablet screenshot" width="100"/>
