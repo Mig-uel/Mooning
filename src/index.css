@@ -25,6 +25,7 @@ body {
 }
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 20px;
   height: 60px;
@@ -33,6 +34,36 @@ nav {
 
   text-transform: uppercase;
   font-size: 1rem;
+
+  position: relative;
+}
+.info {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.info-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--primary-color);
+  text-transform: none;
+
+  position: absolute;
+
+  height: 100px;
+  max-width: 300px;
+  inset: 60px 25px auto auto;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 .container {
   width: 100%;
@@ -108,13 +139,29 @@ input {
     grid-column: span 2;
     grid-row: span 2;
   }
+  .info {
+    font-size: 1.2rem;
+  }
+  .info-card {
+    max-width: 300px;
+    inset: 60px 25px auto auto;
+  }
 }
 @media screen and (min-width: 1024px) {
+  nav {
+    font-size: 1.2rem;
+  }
   .container {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .search {
     grid-column: span 3;
     grid-row: span 2;
+  }
+  .info {
+    font-size: 1.5rem;  }
+  .info-card {
+    max-width: 300px;
+    inset: 60px 25px auto auto;
   }
 }
