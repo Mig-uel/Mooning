@@ -4,7 +4,6 @@ import Container from './components/Container';
 import StocksRenderer from './components/StocksRenderer';
 import About from './pages/About'
 import Search from './components/Search';
-import SearchResults from './components/SearchResults';
 
 function App() {
   return (
@@ -13,8 +12,7 @@ function App() {
         <Route exact path="/"
           element={<>
             <StocksRenderer />
-            <Search />
-            <SearchResults /></>} />
+            <Search /></>} />
         <Route exact path="/about" element={<About />} />
       </Routes>
     </Container>
