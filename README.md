@@ -9,7 +9,7 @@ A mobile-first stocks web app made as a project for The Knowledge House Progress
 
 ## Screenshots
 
-<p align="center">
+<p align="left">
   <img src="./assets/home.png/" width="300">
   <img src="./assets/search.png/" width="300">
   <img src="./assets/results.png/" width="300">
