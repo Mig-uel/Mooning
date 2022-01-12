@@ -8,4 +8,9 @@ A mobile-first stocks web app made as a project for The Knowledge House Progress
 - [IEX Cloud](https://iexcloud.io/)
 
 ## Screenshots
-(w.i.p)
+
+<p align="center">
+  <img src="./assets/home.png/">
+  <img src="./assets/search.png/">
+  <img src="./assets/results.png/">
+</p>
