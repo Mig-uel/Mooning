@@ -104,10 +104,14 @@ a {
 .percentage {
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: var(--positive-color);
+
+  display: flex;
 }
 .percentage::after{
   content: '%';
+}
+.price::before {
+  content: '$';
 }
 .search {
   background-color: var(--secondary-color);
